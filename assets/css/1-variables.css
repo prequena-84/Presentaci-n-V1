@@ -1,0 +1,45 @@
+@import url(0-reset.css);
+
+/*--------- 1.  Definición Variables ---------*/
+:root {
+    /*-- Colores Generales --*/
+    --Color-Fondo-Principal: #ebf2e3;
+    --Color-Fondo-Contenido: #ccc;
+    --Color-Letra-Nav-a:     #000;
+    --Color-Gen-Fondo-1:     #333 ;
+    --Color-Fondo-Bloque:    #cebebe ;
+    --Color-Border:          #3a86ff ;
+
+    /*-- Colores Bloque-1 --*/
+    --Color-Bloque-1:           #001d3d ;
+    --Color-Bloque-1-Fondo-Img: #3d5a80 ;
+    --Color-Bloque-1-Num:       rgba(0,0,0,.3);
+    --Color-Bloque-1-Letra:     #98c1d9 ;
+    --Color-Bloque-1-Titulo:    #001d3d ;
+
+    /*-- Colores Bloque-2 --*/
+    --Color-Bloque-2:             #003e1f;
+    --Color-Bloque-2-Fondo-Img:   #7ae582 ;
+    --Color-Bloque-2-Descripcion: #3d7402 ;
+    --Color-Bloque-2-Parrafo:     #081c15 ;
+
+    /*-- Colores Bloque-3 --*/
+    --Color-Bloque-3:                   #008bda;
+    --Color-Bloque-3-Descripcion:       #bbdefb ;
+    --Color-Bloque-3-Borde-Descripcion: #008bda ;
+    --Color-Bloque-3-Numero:            #61a5c2 ;
+
+    /*-- Colores Bloque-4 --*/
+    --Color-Bloque-4:             #da6200;
+    --Color-Bloque-4-Descripcion: #fbba72 ;
+    --Color-Bloque-4-Formulario:  #ff7b00 ;
+    --Color-Bloque-4-Numero:      #d8973c ;
+    --Color-Bloque-4-Fondo:       #fff ;
+
+    /*--Tamaño de Letras Body--*/
+    --Fuente-Base: 1rem;
+
+    /*-- Familia Fuentes --*/
+    --Fuente-Familia-1: 'Roboto Condensed';
+}
+/*--------- Fin Definición Variables ---------*/

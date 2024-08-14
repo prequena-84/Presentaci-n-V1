@@ -1,0 +1,30 @@
+@import url(2-layaout.css);
+/*--------- 2.  Definición Grid ---------*/
+.grid {
+    display: grid ;
+}
+
+/*No se utilizo DataGrid*/
+.grid-temple-2-row {
+    grid-template-rows: 45vh 45vh ;
+}
+
+.grid-temple-3-row {
+    grid-template-rows: 32vh 32vh 32vh ;
+}
+
+.grid-bloque-1 {
+    grid-row-start: 1 ;
+    grid-row-end:   2 ;
+}
+
+.grid-bloque-2 {
+    grid-row-start: 2 ;
+    grid-row-end:   3 ;
+}
+
+.grid-bloque-3 {
+    grid-row-start: 3 ;
+    grid-row-end:   4 ;
+}
+/*--------- Fin Definición Grid ---------*/

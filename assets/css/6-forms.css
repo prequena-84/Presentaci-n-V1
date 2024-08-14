@@ -1,0 +1,20 @@
+@import url(5-list.css);
+
+/*--------- 6.  FORM ---------*/
+.bloque-4 form {
+    background-color: var( --Color-Bloque-4-Formulario ) ;
+}
+
+.bloque-4 input {
+    border:           0 ;
+    background-color: var( --Color-Bloque-4-Fondo ) ;
+}
+
+.bloque-4 [type='submit'] {
+    border:     2px solid var( --Color-Bloque-4-Fondo ) ;
+    background: var( --Color-Gen-Fondo-1 ) ;
+    color:      var(  --Color-Bloque-4-Fondo  ) ;
+}
+
+
+/*--------- Fin FORM ---------*/

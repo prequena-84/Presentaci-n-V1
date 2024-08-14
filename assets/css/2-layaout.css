@@ -1,0 +1,83 @@
+@import url(1-variables.css);
+
+/*--------- 3.  LAYAOUT ---------*/
+body {
+    max-width: 1920px ;
+    width: 100% ;
+    text-align:         center ;
+    font:               var( --Fuente-Base )/1 'Roboto' ;
+    background-color:   var( --Color-Fondo-Principal ) ;
+    margin:             10px auto ;
+    text-align:         left ;
+}
+
+.barra-navegacion, .bloque-1, .bloque-1 figure, .bloque-1 .descripcion, 
+.bloque-1 .titulo, .bloque-2, .bloque-2 .titulo, .bloque-2 figure, 
+.bloque-2 .descripcion, .bloque-3, .bloque-3 .descripcion,
+.bloque-3 .titulo, .bloque-4, .bloque-4 .titulo, .bloque-4 form,
+.bloque-4 form > div,.barra-navegacion > div {
+    display: flex;
+}
+
+.barra-navegacion h1 > span, .bloque-4 input {
+    display: block;
+}
+
+.barra-navegacion a {
+    display: inline-block;
+}
+
+.barra-navegacion {
+    justify-content: space-between;
+}
+
+.bloque-1 figure, .bloque-1 .titulo, .bloque-2 figure, .bloque-2 .titulo, 
+.bloque-3 .titulo, .bloque-4 .titulo, .bloque-4 form {
+    justify-content: center;
+}
+
+.barra-navegacion nav, .bloque-1, .bloque-3, .bloque-4 {
+    justify-content: flex-end;
+}
+
+.barra-navegacion h1 {
+    text-align: right;
+}
+
+.bloque-1 .descripcion p:nth-child(2), .bloque-2 .descripcion p:nth-child(2), 
+.bloque-4 .descripcion p:nth-child(2) {
+    text-align: justify;
+}
+
+.barra-navegacion a, .bloque-1 .titulo, .bloque-2 .titulo, .bloque-3 .titulo, .bloque-4 .titulo   {
+    text-transform: uppercase;
+}
+
+.bloque-1 .descripcion .subtitulo:not(span), .bloque-2 .descripcion 
+.subtitulo:not(span), .bloque-3 .descripcion .subtitulo:not(span),
+.bloque-4 .descripcion .subtitulo:not(span) {
+    text-transform: capitalize;
+}
+
+.bloque-3 a {
+    text-decoration: none;
+}
+
+.bloque-1 figure, .bloque-1 .titulo, .bloque-2 .titulo, .bloque-2 figure, 
+.bloque-2 .descripcion, .bloque-3 .titulo, .bloque-4 .titulo, .bloque-4 form {
+    align-items: center ;
+}
+
+.bloque-1 .descripcion, .bloque-2 .descripcion, .bloque-3 .descripcion, .bloque-4 .descripcion {
+    align-items: flex-start ;
+}
+
+.bloque-4 form > div, .bloque-4 .formulario form input {
+    align-items: flex-end;
+}
+
+.bloque-1 .descripcion, .bloque-2 .descripcion, .bloque-3 .descripcion, 
+.bloque-4 .descripcion, .bloque-4 form > div {
+    flex-flow: column nowrap ;
+}
+/*--------- Fin LAYAOUT ---------*/

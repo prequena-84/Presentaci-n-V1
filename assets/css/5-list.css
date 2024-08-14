@@ -1,0 +1,13 @@
+@import url(4-generic-items.css);
+
+/*--------- 5. List  ---------*/
+.bloque-3 li {
+    padding-bottom: 10px ;
+    margin-bottom:  10px ;
+    border-bottom:  solid 1px var( --Color-Border ) ;
+}
+
+.bloque-3 a {
+    color: var( --Color-Bloque-3 ) ;
+}
+/*--------- Fin LIST ---------*/

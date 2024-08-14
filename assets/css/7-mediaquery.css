@@ -1,0 +1,1534 @@
+@import url(6-forms.css);
+
+/*--------- 7.  MEDIAQUERY ---------*/
+@media screen and (max-width:8000px) {
+
+    body {
+        max-width:  71.25rem ;
+        width:      100%     ;
+    }
+
+    header {
+        position: absolute ;
+        top: 0             ;
+        position: fixed    ;
+        width:  71.25rem   ;
+    }
+
+    /*Barra-Navegacion*/
+    .barra-navegacion > nav > a {
+        font-size: 1rem ;
+    }
+
+    .barra-navegacion h1 {
+        font-size: 1.5rem ;
+    }
+
+    .menu {
+        width:  100%              ;
+        margin: 3.75rem 0rem 0rem ;
+    }
+
+    /*Bloque-1*/
+    .bloque-1 {
+        width:   71.25rem ;
+        height:  23.75rem ;
+        margin:  0        ;
+        padding: 0        ;
+    }
+
+    /*Bloque IMG 1*/
+    .bloque-1 .imagen {
+        width:  23.75rem ;
+    }
+
+    .bloque-1 .imagen figure {
+        width:  100% ;
+        height: 100% ;
+    }
+
+    .bloque-1 .imagen img {
+        width:  24rem ;
+        height: 24rem ;
+    }
+    /*Bloque Fin de IMG 1*/
+   
+    .bloque-1 .descripcion {
+        width:     23.75rem ;
+        font-size: 1rem     ;
+        padding:   0        ;
+    }
+        
+    .bloque-1 .descripcion .numero {
+        font-size: 1.5rem ;
+    }
+    
+    .bloque-1 .descripcion > p:nth-child(1) {
+        font-size: 1.5rem                   ;
+        margin: .3125rem 0rem 0rem .3125rem ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(2) {
+        font-size: 1.21rem ;
+        padding:   .625rem ;
+    }
+
+    .bloque-1 .titulo {
+        width: 23.75rem                                ;
+        font:  300 3.4375rem var( --Fuente-Familia-1 ) ;
+    }
+    
+    /*Bloque-2*/
+    .bloque-2 {
+        width:   71.25rem ;
+        height:  23.75rem ;
+        margin:  0        ;
+        padding: 0        ;
+    }
+
+   .bloque-2 .titulo {
+        width: 23.75rem                                ;
+        font:  300 3.4375rem var( --Fuente-Familia-1 ) ;
+    }
+    
+    .bloque-2 .imagen {
+        width: 23.75rem ;
+    }
+
+    .bloque-2 .imagen figure {
+        width:  100% ;
+        height: 100% ;
+    }
+
+    .bloque-2 .imagen img {
+        width:  23.75rem ;
+        height: 23.75rem ;
+    }
+
+    .bloque-2 .descripcion {
+        width:     23.75rem ;
+        padding:   0        ;
+        font-size: 1rem     ;
+    }
+
+    .bloque-2 .descripcion .numero {
+        font-size: 1.5625rem ;
+    }
+
+    .bloque-2 .descripcion > p:nth-child(1) {
+        font-size: 1.5rem                      ;
+        margin:    .3125rem 0rem 0rem .3125rem ;
+    }
+
+    .bloque-2 .descripcion > p:nth-child(2) {
+        font-size: 1.21rem ;
+        padding:   .625rem ;
+    } 
+
+    /*Bloque-3*/
+    .bloque-3 {
+        width:   71.25rem ;
+        height:  23.75rem ;
+        margin:  0        ;
+        padding: 0        ;
+    }
+
+    .bloque-3 .descripcion {
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion .numero {
+        font-size: 1.5rem ;
+    }
+
+    .bloque-3 .descripcion p {
+        font-size: 1.5rem                      ;
+        margin:    .3125rem 0rem 0rem .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size: 1.5rem ;
+        margin:    0      ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        padding: .625rem ;
+        margin:  0       ;
+    }
+
+    .bloque-3 .descripcion ul a {
+        font-size: 1.5rem ;
+    }
+
+    .bloque-3 .titulo {
+        width:     23.75rem                                ;
+        font:      300 3.4375rem var( --Fuente-Familia-1 ) ;
+    }
+
+    /*Bloque-4*/
+    .bloque-4 {
+        width:   71.25rem ;
+        height:  23.75rem ;
+        margin:  0        ;
+        padding: 0        ;
+    }
+
+    .bloque-4 .descripcion {
+        width:     23.75rem ;
+        padding:   0        ;
+    }
+
+    .bloque-4 .descripcion .numero {
+        font-size: 1.5625rem ;
+    }
+
+    .bloque-4 .titulo {
+        width: 23.75rem                                ;
+        font:  300 3.4375rem var( --Fuente-Familia-1 ) ;
+    }
+
+    .bloque-4 .formulario {
+        width: 23.75rem ;
+    }
+
+    .bloque-4 form {
+        height: 23.75rem                                ;
+        font:   300 3.4375rem var( --Fuente-Familia-1 ) ;
+    }
+
+    .bloque-4 .descripcion p:nth-child(1) {
+        font-size:  1.5rem                     ;
+        margin:    .3125rem 0rem 0rem .3125rem ;
+    }
+    
+    .bloque-4 .descripcion p:nth-child(2) {
+        padding:   .625rem ;
+        font-size: 1.5rem  ;
+    }
+
+    .bloque-4 input {
+        width:        12.5rem  ;
+        height:       1.875rem ;
+        padding-left: .625rem  ;
+        margin-top:   .625rem  ;
+    }
+
+    .bloque-4 [type='submit'] {
+        width:     auto              ;
+        height:    auto              ;
+        padding:   .3125rem .9375rem ;
+        font-size: 1rem              ;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    body {
+        max-width: 768px ;
+        width:     100%  ; 
+    }
+
+    header {
+        width:      100%     ;
+        margin:     0        ;
+        flex-flow:  column   ;
+        position:   relative ;
+    }
+
+    header h1 {
+        display:         flex                            ;
+        justify-content: flex-end                        ;
+        align-items:     center                          ;
+        position:        absolute                        ;
+        top:             0                               ;
+        position:        fixed                           ;
+        width:           100%                            ;
+        z-index:         100                             ;
+        background-color: var( --Color-Fondo-Principal ) ;
+        font-size:       1.25rem                         ;
+    }
+
+    .barra-navegacion > nav {
+        position:   fixed                                ;
+        width:      100%                                 ;
+        margin-top: 1.25rem                              ;
+        z-index:    1                                    ;
+        background-color: var( --Color-Fondo-Contenido ) ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1), .barra-navegacion > nav > a:nth-child(2), 
+    .barra-navegacion > nav > a:nth-child(3), .barra-navegacion > nav > a:nth-child(4)  {
+        margin: 0 ;
+    } 
+
+    .barra-navegacion h1 span {
+        margin-left: .625rem ;
+    }
+
+    .menu {
+        width:      100%      ;
+        margin-top: 4.6875rem ;
+        padding:    0         ;
+    }
+
+    .bloque-1 {
+        flex-flow: column   ;
+        position:  relative ;
+        width:     100%     ;
+        height:    auto     ;
+        margin:    0        ;
+        padding:   0        ;
+    }
+
+    .bloque-1 .titulo {
+        width:   100%      ;
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-1 .titulo h2 {
+        width:       100%    ;
+        margin-left: 1.25rem ;
+        font-size:   3rem    ;
+    }
+
+    /*bloque Img-1*/
+    .bloque-1 .imagen {
+        position:         absolute    ;
+        background-color: transparent ;
+        right:            1.5625rem   ;
+        top:              4%          ;
+        width:            100px       ;
+        height:           100px       ; 
+    }
+
+    .bloque-1 .imagen figure {
+        width:  100%                                   ;
+        height: 100%                                   ;
+        border: solid .0625rem var( --Color-Bloque-1 ) ;
+    }
+
+    .bloque-1 .imagen img {
+        width: 120px  ;
+        height: 120px ;
+    }
+    /*Fin Bloque Img-1*/
+
+    .bloque-1 .descripcion {
+        width:            100%                           ;
+        margin:           0                              ;
+        padding:          0                              ;
+        background-color: var( --Color-Fondo-Principal ) ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(1) {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    /*Bloque #2*/
+    .bloque-2 {
+        flex-flow: column   ;
+        position:  relative ;
+        width:     100%     ;
+        height:    auto     ;
+        margin:    0        ;
+        padding:   0        ;
+    }
+
+    /*Bloque Img-2*/
+    .bloque-2 .imagen {
+        position:         absolute    ;
+        background-color: transparent ;
+        left:             .9375rem    ;
+        top:              1.25rem     ;
+        width:            6.875rem    ;
+        height:           6.875rem    ;
+    }
+
+    .bloque-2 figure {
+        border-radius:    50%                                    ;
+        overflow:         hidden                                 ;
+        width:            100%                                   ;
+        height:           100%                                   ;
+        background-color: white                                ;
+        border:           solid .0625rem var( --Color-Bloque-2 ) ;
+    }
+
+    .bloque-2 .imagen img {
+        width: 85px  ;
+        height: 85px ;
+    }
+    /*Fin Bloque Img-2*/
+
+    .bloque-2 .descripcion {
+        width:   100%                                    ;
+        margin:  0                                       ;
+        padding: 0                                       ;
+        background-color: var( --Color-Fondo-Principal ) ;
+    }
+    
+    .bloque-2 .titulo {
+        width:   100%      ;
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-2 .titulo h2 {
+        margin:    0    ;
+        font-size: 3rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(1) {
+        margin-left: 7.1875rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+    /*Fin de Bloque #2*/
+    /*Bloque #3*/
+    .bloque-3 {
+        flex-flow:  column   ;
+        position:   relative ;
+        width:      100%     ;
+        height:     auto     ;
+        margin:     0        ;
+        padding:    0        ;
+    }
+
+    .bloque-3 .titulo {
+        width:   100%      ;
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-3 .titulo h2 {
+        margin: 0       ;
+        font-size: 3rem ;
+    }
+
+    .bloque-3 .descripcion {
+        width:              100%                           ;
+        margin:             0                              ;
+        padding:            0                              ;
+        border:             none                           ;
+        background-color:   var( --Color-Fondo-Principal ) ;
+    }
+
+    .bloque-3 .descripcion .subtitulo {
+        margin: 0 ;
+    }
+    /*Fin de Bloque #3*/
+    /*Bloque #4*/
+    .bloque-3 .descripcion ul li {
+        margin:  0        ;
+        padding: .3125rem ;
+    }
+
+    .bloque-4 {
+        flex-flow: column ;
+        width:     100%   ;
+        height:    auto   ;
+        margin:    0      ;
+        padding:   0      ;
+    }
+
+    .bloque-4 .titulo {
+        width:   100%      ;
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-4 .titulo h2 {
+        margin: 0       ;
+        font-size: 3rem ;
+    }
+
+    .bloque-4 .descripcion {
+        width:            100%                           ;
+        margin:           0                              ;
+        padding:          0                              ;
+        background-color: var( --Color-Fondo-Principal ) ;
+    }
+
+    .bloque-4 .descripcion p:nth-child(1) {
+        margin: 0 ;
+    }
+
+    .bloque-4 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    .bloque-4 .formulario {
+        width:            100%                               ;
+        padding:          3rem 0                             ;
+        background-color: var( --Color-Bloque-4-Formulario ) ;
+    }
+
+    .bloque-4 form {
+        margin: 0       ;
+        height: inherit ;
+    }
+
+    .bloque-4 .formulario input {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-4 .formulario input:nth-child(2) {
+        margin-top: .3125rem ;
+    }
+    /*Fin de Bloque #4*/
+}
+
+@media screen and (max-width:414px) {
+
+    body {
+        max-width: 414px ;
+        width:     100%  ;
+    }
+
+    header {
+        width:  100% ;
+        margin: 0    ;
+    }
+
+    .barra-navegacion > nav {
+        width:      100%    ;
+        margin-top: 1.25rem ;
+    }
+    
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     4.0625rem ;
+        font-size: .85rem    ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:     2.625rem ;
+        font-size: .85rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:     4.0625rem ;
+        font-size: .85rem    ; 
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:     4.4375rem ;
+        font-size: .85rem    ;
+    }
+
+    .barra-navegacion > h1 {
+        width: 100% ;
+    }
+
+    .menu {
+        width:       100%     ;
+        margin-top:  4.375rem ;
+        align-items: center   ;
+    }
+
+    .bloque-1 {
+        width:   100% ;
+        padding: 0    ;
+        margin:  0    ;
+    }
+
+    .bloque-1 .titulo {
+        width:     100%       ;
+        font-size: 2.5rem     ;
+        padding:   1.875rem 0 ;
+    }
+
+    .bloque-1 .imagen {
+        top:    30px     ;
+        right:  12px     ;
+        width:  110px    ;
+        height: 110px    ;
+    }
+
+    .bloque-1 .imagen figure {
+        width:  100%                                 ;
+        height: 100%                                 ;
+        border: solid .375rem var( --Color-Bloque-1 );
+    }
+
+    .bloque-1 .descripcion p:nth-child(1) {
+        margin: 0 ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(2) {
+        font-size: 1rem    ;
+        padding:   .625rem ;
+    }
+
+    .bloque-1 .descripcion {
+        width:            100%    ;
+        padding:          0       ;
+        background-color: white ;
+    }
+
+    .bloque-2 {
+        max-width: 100% ;
+        padding:   0    ;
+        margin:    0    ;
+    }
+
+    .bloque-2 .titulo {
+        width:     100%       ;
+        font-size: 2.5em      ;
+        padding:   1.875rem 0 ;
+    }
+
+    .bloque-2 .titulo h2 {
+        margin-left: 6.875rem ;
+    }
+
+    .bloque-2 .imagen {
+        top:    35px  ;
+        left:   1px   ;
+        width:  110px ;
+        height: 110px ;
+    }
+
+    .bloque-2 .imagen figure {
+        width:  100%                                  ;
+        height: 100%                                  ;
+        border: solid .375rem var( --Color-Bloque-2 ) ;
+    }
+
+    .bloque-2 .titulo h2 {
+        margin-left: 3.75rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(1) {
+        margin-left: 7.5rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(2) {
+        font-size: 1rem    ;
+        padding:   .625rem ;
+    }
+
+    .bloque-2 .descripcion {
+        width:            100%    ;
+        padding:          0       ;
+        margin:           0       ;
+        background-color: white ;
+    }
+
+    .bloque-3 {
+        max-width: 100% ;
+        padding:   0    ;
+        margin:    0    ;
+    }
+
+    .bloque-3 .titulo {
+        width:      100%       ;
+        font-size:  2.5em      ;
+        padding:    1.875rem 0 ;
+    }
+
+    .bloque-3 .descripcion {
+        width:            100%    ;
+        border:           none    ;
+        padding:          0       ;
+        background-color: white ;
+    }
+
+    .bloque-3 .descripcion p {
+        margin: 0 ;
+    }
+
+    .bloque-3 .descripcion ul {
+        padding: 5px ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size:   .9rem ;
+        padding-top: 5px   ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion a {
+        font-size: 1rem !important ;
+    }
+
+    .bloque-4 {
+        width:   100% ;
+        padding: 0    ;
+        margin:  0    ;
+    }
+
+    .bloque-4 .titulo {
+        width:     100%       ;
+        padding:   1.875rem 0 ;
+        font-size: 2.5rem     ;
+    }
+
+    .bloque-4 .descripcion {
+        width:             100%   ;
+        padding:           0      ;
+        background-color: white ;
+    }
+
+    .bloque-4 .descripcion > p:nth-child(1) {
+        margin: 0 ;
+    }
+
+    .bloque-4 .descripcion > p:nth-child(2) {
+        font-size: 1rem    ;
+        padding:   .625rem ;
+    }
+
+    .bloque-4 .formulario {
+        width:   100%                  ;
+        padding: 1.875rem 0 !important ;
+    }
+
+    .bloque-4 .formulario form {
+        width:  100% ;
+        margin: 0    ; 
+    }
+
+}
+
+@media screen and (max-width: 377px) {
+
+    body {
+        max-width: 377px ;
+        width: 100%      ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     3.75rem ;
+        font-size: .8rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:     2.1875rem ;
+        font-size: .8rem     ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:     3.75rem ;
+        font-size: .8rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:     3.4375rem ;
+        font-size: .8rem     ;
+    }
+
+    .bloque-1 .titulo h2 {
+        margin: 0 ;
+    }
+
+    .bloque-1 .imagen {
+        right:  1rem ;
+        top:    12%     ;
+        width:  100px   ;
+        height: 100px   ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(1) {
+        margin: 0 ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    .bloque-2 .titulo h2 {
+        margin-left: .9375rem ;
+    }
+
+    .bloque-2 .imagen {
+        top:    2.8125rem ;
+        left:   .625rem   ;
+        width:  95px      ;
+        height: 95px      ;
+    }
+
+    .bloque-2 .titulo h2 {
+        margin-left: 3.75rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(1) {
+        margin-left: 6.875rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .descripcion .subtitulo {
+        margin: 0;
+    }
+
+    .bloque-3 .descripcion ul {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size:   .9rem    ;
+        padding-top: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion a {
+        font-size: .8rem ;
+    }
+}
+
+@media screen and (max-width: 337px) {
+
+    body {
+        max-width: 337px ;
+        width:     100%  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     2.8125rem ;
+        font-size: .6rem     ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:      2rem ;
+        font-size: .6rem ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:      2.75rem ;
+        font-size: .6rem    ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:      2.8125rem ;
+        font-size: .6rem      ;
+    }
+
+    .bloque-1 .titulo {
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-1 .titulo h2 {
+        font-size:    2.5rem  ;
+        margin-left: .3125rem ;
+    }
+    
+    .bloque-1 .imagen {
+        right:  .9375rem ;
+        top:    5%       ;
+        width:  5.625rem ;
+        height: 5.625rem ;
+    }
+
+    .bloque-1 .imagen img {
+        width:  90px ;
+        height: 90px ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(1) {
+        margin: 0 ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(2) {
+        font-size: .75rem ;
+        padding: .3125rem ;
+    }
+
+    .bloque-2 .titulo {
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-2 .titulo h2 {
+        font-size:   2.5rem   ;
+        margin-left: 1.875rem ;
+    }
+
+    .bloque-2 .imagen {
+        top:    1.5625rem ;
+        left:   .1875rem  ;
+        width:  5.625rem  ;
+        height: 5.625rem  ;
+    }
+
+    .bloque-2 .imagen img {
+        width:  60px ;
+        height: 60px ;
+    }
+
+    .bloque-2 .titulo h2 {
+        font-size:    2.5rem ;
+        margin-left: 3.75rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(1) {
+        margin-left: 6.25rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(2) {
+        font-size: .75rem              ;
+        padding:   .3125rem !important ;
+    }
+
+    .bloque-3 .titulo {
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-3 .titulo h2 {
+        font-size: 2.5rem ;
+    }
+
+    .bloque-3 .descripcion p {
+        margin: 0;
+    }
+
+    .bloque-3 .descripcion ul {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size:   .60rem   ;
+        padding-top: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion a {
+        font-size: .75rem !important ;
+    }
+
+    .bloque-4 .titulo {
+        padding: 1.25rem 0 ;
+    }
+
+    .bloque-4 .titulo h2 {
+        font-size: 2.5rem ;
+    }
+
+    .bloque-4 .descripcion p:nth-child(2) {
+        font-size: .75rem   ;
+        padding:   .3125rem ;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+
+    body {
+        max-width: 300px ;
+        width:     100%  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     2.375rem ;
+        font-size: .5rem    ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:     1.75rem ;
+        font-size: .5rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:     2.5rem ;
+        font-size: .5rem  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:     2.5rem ;
+        font-size: .5rem  ;
+    }
+
+    .menu {
+        margin-top: 4.0625rem ;
+    }
+
+    .bloque-1 .titulo h2 {
+        font-size:   2.375rem ;
+        margin-left: .0625rem ;
+    }
+
+    .bloque-1 .imagen {
+        top:    12%       ;
+        right:  .9375rem  ;
+        width:  4.6875rem ;
+        height: 4.6875rem ;
+    }
+
+    .bloque-1 .descripcion .subtitulo {
+        margin: 0 ;
+    }
+
+    .bloque-1 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    .bloque-2 .titulo h2 {
+        font-size:   2.375rem ;
+        margin-left: 5rem     ;
+    }
+
+    .bloque-2 .imagen {
+        top:    2.1875rem ;
+        left:   .625rem   ;
+        width:  4.6875rem ;
+        height: 4.6875rem ;
+    }
+
+    .bloque-2 .descripcion .subtitulo {
+        margin-left: 6.875rem ;
+    }
+
+    .bloque-2 .titulo h2 {
+        font-size:   2.375rem ;
+        margin-left: 3.75rem  ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(1) {
+        margin-left:  6.25rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .titulo h2 {
+        font-size: 2.375rem ;
+    }
+
+    .bloque-3 .descripcion .subtitulo {
+        margin: 0 ;
+    }
+
+    .bloque-3 .descripcion ul {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size:   .9rem    ;
+        padding-top: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion a {
+        font-size: .8rem ;
+    }
+
+    .bloque-4 .titulo h2 {
+        font-size: 2.375rem ;
+    }
+
+    .bloque-4 .descripcion p:nth-child(2) {
+        font-size: .6875rem ;
+    }
+}
+
+@media screen and (max-width: 275px) {
+
+    body {
+        max-width: 275px ;
+        width:     100%  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     2.375rem ;
+        font-size: .5rem    ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:     1.5625rem ;
+        font-size: .5rem     ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:     2.5rem ;
+        font-size: .5rem  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:     2.1875rem ;
+        font-size: .5rem     ;
+    }
+
+    .bloque-1 .titulo h2 {
+        font-size:   2.25rem             ;
+        margin-left: .3125rem !important ;
+    }
+
+    .bloque-1 .imagen {
+        top:    1.875rem !important ;
+        right:  1rem !important     ;
+        width:  5.3125rem           ;
+        height: 5.3125rem           ;
+    }
+
+    .bloque-1 .descripcion .subtitulo {
+        margin: 0 ;
+    }
+
+    .bloque-2 .imagen {
+        top:    20px !important     ;
+        left:   .3125rem !important ;
+        width:  5.3125rem           ;
+        height: 5.3125rem           ;
+    }
+
+    .bloque-2 .descripcion .subtitulo {
+        margin-left: 5.625rem ;
+    }
+
+    .bloque-2 .titulo h2 {
+        margin-left: 3.75rem ;
+    }
+
+    .bloque-2 .descripcion .subtitulo {
+        margin-left: 6.25rem ;
+    }
+
+    .bloque-2 .descripcion p:nth-child(2) {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .descripcion .subtitulo {
+        margin: 0 ;
+    }
+
+    .bloque-3 .descripcion ul {
+        padding: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size:   .9rem    ;
+        padding-top: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion a {
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width: 270px) {
+
+    body {
+        max-width: 270px ;
+        width:     100%  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     2.4375rem ;
+        font-size: .5rem     ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:     1.25rem ;
+        font-size: .5rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:     1.875rem ;
+        font-size: .5rem    ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:     1.875rem ;
+        font-size: .5rem    ;
+    }
+
+    .bloque-1 .titulo h2 {
+        font-size: 2rem ;
+    }
+
+    .bloque-1 .imagen {
+        top:    35px     ;
+        right:  .3125rem ;
+        width:  4.375rem ;
+        height: 4.375rem ;
+    }
+
+    .bloque-2 .titulo h2 {
+        font-size: 2rem      ;
+        margin-left: 3.75rem ;
+    }
+
+    .bloque-2 .imagen {
+        top:    1.25rem  ;
+        left:   .625rem  ;
+        width:  4.375rem ;
+        height: 4.375rem ;
+    }
+
+    .bloque-3 .titulo h2 {
+        font-size: 2rem ;
+    }
+
+    .bloque-3 .descripcion ul p {
+        font-size:   .9rem    ;
+        padding-top: .3125rem ;
+    }
+
+    .bloque-3 .descripcion ul li {
+        margin:  0 ;
+        padding: 0 ;
+    }
+
+    .bloque-3 .descripcion a {
+        font-size: .8rem ;
+    }
+
+    .bloque-4 .titulo h2 {
+        font-size: 2rem ;
+    }
+
+}
+
+@media screen and (max-width: 245px) {
+
+    body {
+        max-width: 245px ;
+        width:     100%  ;
+    }
+
+    .barra-navegacion h1 {
+        font-size: 1rem ;
+    }
+
+    .barra-navegacion > nav {
+        position: absolute;
+        top:      0 ;
+        position: fixed ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(1) {
+        width:     2.125rem ;
+        font-size: .45rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(2) {
+        width:     1.25rem ;
+        font-size: .45rem  ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(3) {
+        width:     1.875rem ;
+        font-size: .45rem   ;
+    }
+
+    .barra-navegacion > nav > a:nth-child(4) {
+        width:     1.875rem ;
+        font-size: .45rem   ;
+    }
+
+    .menu {
+        margin-top: 3.3125rem ;
+    }
+
+}
+
+@media screen and (max-width:240px) {
+
+    body {
+        min-width: 240px ;
+        width:     100%  ;
+        margin:    0     ;  
+    }
+
+    .barra-navegacion > div {
+        width:            100%                           ;
+        margin:           .75rem 0 0                     ;
+        padding:          0                              ;
+        position:         fixed                          ;
+        z-index:          1                              ;
+        align-items:      center                         ;
+        justify-content:  space-between                  ;
+        background-color: var( --Color-Fondo-Contenido ) ;
+        font-size:        .7rem                          ;
+    }
+
+    .barra-navegacion > div button {
+        font-size: .5rem ;
+    }
+
+    .barra-navegacion h1 {
+        width:     100%  ;
+        margin:    0     ;
+        font-size: .6rem ;
+    }
+
+    .barra-navegacion h1 span {
+        margin-left: .3125rem ;
+    }
+
+    .barra-navegacion > nav {
+        width:            100%                       ;
+        position:         fixed                      ;
+        margin-top:       27px                       ;
+        margin-left:      0                          ;
+        flex-wrap:        wrap                       ;   
+        opacity:          .90                        ;   
+        background-color: var( --Color-Fondo-Bloque );  
+    }
+
+    .barra-navegacion > nav > ul {
+        line-height: 1.5    ;
+        max-height:  0      ;
+        overflow:    hidden ;
+        z-index:     0      ;
+        font-size:   .8rem  ;
+    }
+
+    .barra-navegacion li:nth-child(1) {
+        border-bottom: solid .0625rem var( --Color-Bloque-1 );
+    }
+
+    .barra-navegacion li:nth-child(2) {
+        border-bottom: solid .0625rem var( --Color-Bloque-2 );
+    }
+
+    .barra-navegacion li:nth-child(3) {
+        border-bottom: solid .0625rem var( --Color-Bloque-3 );
+    }
+
+    .barra-navegacion li:nth-child(4) {
+        border-bottom: solid .0625rem var( --Color-Bloque-4 );
+    }
+
+    .barra-navegacion a {
+        color:           var( --Color-Letra-Nav-a ) ;
+        text-decoration: none                       ;
+        font-size: 8px ;
+        margin-left:     .3125rem                   ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(1):hover {
+        background-color: var( --Color-Bloque-1 )            ;
+        border-bottom:    solid .03125rem var( --Color-Bloque-1 ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(1):hover > a {
+        color: var( --Color-Bloque-1-Letra ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(2):hover {
+        background-color: var( --Color-Bloque-2 ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(2):hover > a {
+        color: var( --Color-Bloque-2-Fondo-Img ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(3):hover {
+        background-color: var( --Color-Bloque-3 ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(3):hover > a {
+        color: var( --Color-Bloque-3-Descripcion ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(4):hover {
+        background-color: var( --Color-Bloque-4 ) ;
+    }
+
+    .barra-navegacion > nav > ul > li:nth-child(4):hover > a {
+        color: var( --Color-Bloque-4-Descripcion ) ;
+    }
+
+    .menu {
+        width:   100%          ;
+        margin:  1.6875rem 0 0 ;
+        padding: 0             ;  
+        z-index: 1             ;      
+    }
+
+    .bloque-1 {
+        width:   100% ;
+        margin:  0    ;
+        padding: 0    ;
+    }
+
+    .bloque-1 .imagen {
+        top:    14%      ;
+        right:  .5rem    ;
+        width:  4.375rem ;
+        height: 4.375rem ;
+    }
+
+    .bloque-1 .titulo {
+        width:      100% ;
+        font-size:  2rem ;
+        padding:    1.25rem 0;
+    }
+
+    .bloque-1 .descripcion {
+        width:   100% ;
+        margin:  0    ;
+        padding: 0    ;
+    }
+    
+    .bloque-1 > .descripcion > p.subtitulo > span {
+        font-size: 1.2rem ;
+    }
+
+    .bloque-1 > .descripcion > p:nth-child(1) {
+        font-size:   1.2rem  ;
+        margin: 0 0 0 .375rem ;
+    }
+
+    .bloque-1 .descripcion > p:nth-child(2) {
+        font-size: .7rem ;
+        padding:   .4rem ;
+    }
+
+    .bloque-2 {
+        width:   100% ;
+        margin:  0    ;
+        padding: 0    ;
+    }
+
+    .bloque-2 .titulo {
+        width:     100%      ;
+        font-size: 2rem      ;
+        padding:   1.25rem 0 ;
+    }
+
+    .bloque-2 .titulo h2 {
+        width:       100%    ; 
+        margin-left: 6.25rem ;
+    }
+
+    .bloque-2 .imagen {
+        top:    2.1875rem ;
+        left:   .625rem   ;
+        width:  4.375rem  ;
+        height: 4.375rem  ;
+    }
+
+    .bloque-2 .descripcion {
+        width:   100% ;
+        margin:  0    ;
+        padding: 0    ;
+    }
+
+    .bloque-2 .descripcion > .subtitulo {
+        margin-left: 5rem ;
+    }
+    
+    .bloque-2 > .descripcion > p.subtitulo > span {
+        font-size: 1.2rem ;
+    }
+
+    .bloque-2 > .descripcion > p.subtitulo {
+        font-size: 1.2rem ;
+    }
+
+    .bloque-2 .descripcion > p:nth-child(2) {
+        font-size: .7rem ;
+        padding:   .5rem ;
+    }
+
+    .bloque-3 {
+        width:   100% ;
+        margin:  0    ;
+        padding: 0    ;
+    }
+
+    .bloque-3 .titulo {
+        width:     100%     ;
+        font-size: 2rem     ;
+        padding:   20px 0px ;
+    }
+
+    .bloque-3 .descripcion {
+        width:   100% ;
+        padding: 0    ;
+    }
+
+    .bloque-3 .descripcion > p.subtitulo {
+        font-size:   1.2rem  ;
+        margin-left: .375rem ;
+    }
+
+    .bloque-3 > .descripcion > p.subtitulo > span {
+        font-size: 1.2rem ;
+    }
+
+    .bloque-3 .descripcion > ul {
+        width:      100%        ;
+        font-size: .40rem       ;
+        padding:    .625rem 0 0 ;
+    }
+    
+    .bloque-3 .descripcion > ul a {
+        font-size: .7rem ;
+    }
+
+    .bloque-4 {
+        width:   100% ;
+        margin:  0    ;
+        padding: 0    ;
+    }
+
+    .bloque-4 .titulo {
+        width:     100%     ;
+        font-size: 2rem     ;
+        padding:   20px 0px ;
+    }
+
+    .bloque-4 .descripcion {
+        width:   100% ;
+        padding: 0    ;
+    }
+
+    .bloque-4 .descripcion > p.subtitulo {
+        font-size:   1.2rem  ;
+        margin-left: .375rem ;
+    }
+
+    .bloque-4 > .descripcion > p.subtitulo > span {
+        font-size: 1.2rem ;
+    }
+
+    .bloque-4 .descripcion > p:nth-child(2) {
+        font-size: .65rem ;
+        padding:   .4rem  ;
+    }
+
+    .bloque-4 .formulario {
+        width:   100%      ;
+        padding: .625rem 0 ;
+    }
+
+    .bloque-4 .formulario > form {
+        width: auto ;
+    }
+
+    .bloque-4 .formulario input[name='email'] {
+        width: 90vw ;
+    }
+
+}
+/*--------- Fin MEDIAQUERY ---------*/

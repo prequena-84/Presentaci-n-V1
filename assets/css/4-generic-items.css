@@ -1,0 +1,195 @@
+@import url(3-grid.css);
+
+/*--------- 4.  GENERIC ITEMS ---------*/
+.barra-navegacion {
+    background-color: var( --Color-Fondo-Principal );
+}
+
+.barra-navegacion > nav > a:nth-child(1) {
+    border-bottom: 5px solid var( --Color-Bloque-1 ) ;
+}
+
+.barra-navegacion > nav > a:nth-child(1):hover {
+    background-color: var( --Color-Bloque-1 );
+    color:            var( --Color-Fondo-Contenido );
+}
+
+.barra-navegacion > nav > a:nth-child(2) {
+    border-bottom: 5px solid var( --Color-Bloque-2 ) ;
+}
+
+.barra-navegacion > nav > a:nth-child(2):hover {
+    background-color: var( --Color-Bloque-2 ) ;
+    color:            var( --Color-Fondo-Contenido );
+}
+
+.barra-navegacion > nav > a:nth-child(3) {
+    border-bottom: 5px solid var( --Color-Bloque-3 ) ;
+}
+
+.barra-navegacion > nav > a:nth-child(3):hover {
+    background-color: var( --Color-Bloque-3 );
+    color:            var( --Color-Fondo-Contenido );
+}
+
+.barra-navegacion > nav > a:nth-child(4) {
+    border-bottom: 5px solid var( --Color-Bloque-4 ) ;
+}
+
+.barra-navegacion > nav > a:nth-child(4):hover {
+    background-color: var( --Color-Bloque-4 );
+    color:            var( --Color-Fondo-Contenido );
+}
+
+.barra-navegacion > nav > a {
+    margin-right: 1px ;
+    padding:      15px ;
+    font-family:  var( --Fuente-Familia-1 ) ;
+    font-weight:  700 ;
+    color:        var( --Color-Letra-Nav-a ) ;
+}
+
+.barra-navegacion h1 {
+    font-weight: 500 ;
+}
+
+.barra-navegacion h1 > span {
+    line-height: 1.3 ;
+}
+
+.bloque-1 {
+    background-color: var( --Color-Fondo-Bloque ) ;
+}
+
+.bloque-1 .imagen {
+    background-color: var( --Color-Bloque-1-Fondo-Img ) ;
+}
+
+.bloque-1 figure {
+    border-radius: 50% ;
+    overflow:      hidden ;
+}
+
+.bloque-1 .titulo {
+    background-color: var( --Color-Bloque-1-Titulo ) ;
+    color:            var( --Color-Bloque-1-Letra ) ;
+}
+
+.bloque-1 .descripcion {
+    font-weight:      300 ;
+    line-height:      1.3 ;
+    padding:          0px 10px ;
+    background-color: var( --Color-Bloque-1-Letra ) ;
+    color:            var( --Color-Bloque-1-Titulo ) ;
+}
+
+.bloque-1 .descripcion .numero {
+    font-weight:  700 ;
+    color:        var( --Color-Bloque-1-Num ) ;
+}
+
+.bloque-1 .descripcion .subtitulo:not(span) {
+    font-weight: 700 ;
+    color:       var( --Color-Bloque-1-Titulo ) ;
+}
+
+.bloque-2 {
+    background-color: var( --Color-Fondo-Bloque ) ;
+    color:            var( --Color-Gen-Fondo-1 ) ;
+}
+
+.bloque-2 .titulo {
+    background-color: var( --Color-Bloque-2 ) ;
+    color:            var( --Color-Bloque-2-Fondo-Img ) ;
+}
+
+.bloque-2 figure {
+    background-color: var( --Color-Bloque-2-Fondo-Img ) ;
+}
+
+.bloque-2 .descripcion {
+    font-weight:      300 ;
+    line-height:      1.3 ;
+    background-color: var( --Color-Bloque-2-Descripcion ) ;
+    color:            var( --Color-Bloque-2-Parrafo ) ;
+}
+
+.bloque-2 .descripcion .numero {
+    font-weight:  700 ;
+    color:        var( --Color-Bloque-1-Num ) ;
+}
+
+.bloque-2 .descripcion .subtitulo:not(span) {
+    font-weight: 700 ;
+    color:       var( --Color-Bloque-2 ) ;
+}
+
+.bloque-3 {
+    color:            var( --Color-Gen-Fondo-1 ) ; 
+    background-color: var( --Color-Fondo-Bloque );
+}
+
+.bloque-3 .descripcion {
+    font-weight:      300 ;
+    line-height:      1.3 ;
+
+    border: 5px solid var( --Color-Bloque-3-Borde-Descripcion );
+    background-color: var( --Color-Bloque-3-Descripcion );
+    flex: 1 67% ;
+}
+
+.bloque-3 .titulo {
+    background-color: var( --Color-Bloque-3  ) ;
+    color:            var( --Color-Bloque-3-Descripcion ) ;
+}
+
+.bloque-3 .descripcion .numero {
+    font-weight:  700 ;
+    color:        var( --Color-Bloque-3-Numero ) ;
+}
+
+.bloque-3 .descripcion .subtitulo:not(span) {
+    font-weight: 700;  
+    color:       var( --Color-Bloque-3 );
+}
+
+.bloque-4 {
+    background-color: var( --Color-Fondo-Bloque );
+    color:            var( --Color-Gen-Fondo-1 ) ;
+}
+
+.bloque-4 .descripcion {
+    font-weight:      300 ;
+    line-height:      1.3 ;
+    background-color: var( --Color-Bloque-4-Descripcion ) ;
+    color:            var( --Color-Gen-Fondo-1 ) ;
+}
+
+.bloque-4 .descripcion .numero {
+    font-weight: 700 ;
+    color:       var( --Color-Bloque-4-Numero ) ;
+}
+
+.bloque-4 .descripcion .subtitulo:not(span) {
+    font-weight: 700;  
+    color:       var( --Color-Bloque-4 );
+}
+
+.bloque-4 .titulo {
+    background-color: var( --Color-Bloque-4 ) ;
+    color:            var( --Color-Bloque-4-Descripcion ) ;
+}
+
+.order-1 {
+    order:1 ;
+}
+
+.order-2 {
+    order:2 ;
+}
+
+.order-3 {
+    order:3 ;
+}
+
+/*--------- Fin GENERIC ITEMS ---------*/
